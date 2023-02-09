@@ -39,7 +39,7 @@ const Convertir = () => {
             <option value="USD">USD</option>
         </select>
         <input type="number" value={taux} onChange={ChangementTaux} />
-        <button onClick={Convertir}>Convertir</button>
+        <button onClick={Convertir}>Convertire</button>
         <p>{montantconvertie}</p>
         </div>
     );
