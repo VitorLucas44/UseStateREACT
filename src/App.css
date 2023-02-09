@@ -5,6 +5,10 @@ button{
 input{
   border: solid 2px black;
 }
+body{
+  display: flex;
+  flex-direction: column;
+}
 
 @keyframes App-logo-spin {
   from {
